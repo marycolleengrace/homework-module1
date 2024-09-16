@@ -184,6 +184,7 @@ input{
 input[type="radio"]{
     width: 25px;
     display:inline-flex;
+    margin-top: 20px;
 }
 legend {
     color:#4288c3;
@@ -208,7 +209,6 @@ label  {
     display:inline-flex;
     align-items: center;
     width: 500px;
-
 }
 
 textarea{
