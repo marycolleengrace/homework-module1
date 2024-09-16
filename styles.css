@@ -224,6 +224,5 @@ span:first-child{
 .radios{
     /*margin-bottom: 20px;*/
     display:inline-flex;
-    text-align: center;
     align-items: center;
 }
