@@ -267,7 +267,25 @@ margin-bottom: 40px;
 }
 
 #timeofday{
-    background-color:0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%;
+    background:linear-gradient(0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
     font-family:Arial, Helvetica, sans-serif;
-    font-style:#3a3a3a, #125688;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3a3a3a;
+    /*font-style:#3a3a3a, #125688;*/
+}
+#timeofday span {
+    display: inline-block; /* "Your Current Local Time:" and clock are in the same line */
+    /*vertical-align: middle; /* Align both elements in the middle */
+    /*font-size: 16px;*/
+    align-items: center;
+}
+
+#clock {
+    color:#125688;
+    margin-left: 5px; 
+    /*display: inline-block; 
+    vertical-align: middle;*/
 }
