@@ -225,10 +225,12 @@ span:first-child{
     display: block;
 }
 
-.radios{
+.radios label{
+    display: inline;
+
     /*margin-bottom: 20px;*/
-    display:inline-flex;
-    align-items: center;
+ /*   display:;*/
+   /* align-items: center;*/
     
 }
 
