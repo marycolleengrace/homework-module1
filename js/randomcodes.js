@@ -1,9 +1,13 @@
 /*------Random Codes------*/
 
+var code = "";//initialize to null value
+var getCode = "";
+var btnvalue;
+var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$';
+
+
 //Function to generate combination of characters
 function generateCode(){
-    var code = '';//initialize to null value
-    var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$';
 
     //Generate character multiple times using a loop
     for (i=1; i<= 8; i++){
@@ -17,8 +21,29 @@ document.getElementById("codes").innerHTML = generateCode();
 
 //Disable Button
 
-function disableButton(){
-    document.getElementById("submit").disabled = true;
+function disableButton(btnvalue){
+    document.getElementById("submit").disabled = btnvalue;
+    if (btnvalue == true){
+    //set button and label color translucent
+    document.getElementById("submit").style.backgroundColor = "rgba(73, 119, 209, 0.3)";
+    document.getElementById.style.color = "rgba(255, 255, 255, 0.5)";
+} else {
+    document.getElementById("submit").style.backgroundColor = "rgba(73, 119, 209, 1)";
+    document.getElementById.style.color = "rgba(255, 255, 255, 1)";
+}
+}
+var codebox = document.getElementById("codeentered");
+codebox.addEventListener("input", evaluateCode);
+
+//function to test user input
+
+function evaluateCode(){
+    getCode = document.getElementById("codeentered").value;
+    var charset1 = getCode.trim();
+    var charset2 = code.trim();
+    if (charset1.length == charset2.length && charset1== charset2){
+        disableButton(false);
+    }
 }
 
 //Activate function
