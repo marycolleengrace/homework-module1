@@ -296,3 +296,13 @@ margin-bottom: 40px;
     /*display: inline-block; 
     vertical-align: middle;*/
 }
+.randomcode {
+    display: inline-flex;
+    width: 5px;
+    height: 20px;
+    align-items: center;
+    padding-left: 285px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    ;
+}

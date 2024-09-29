@@ -2,7 +2,7 @@
 
 //Function to generate combination of characters
 function generateCode(){
-    var code = ' ';//initialize to null value
+    var code = '';//initialize to null value
     var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$';
 
     //Generate character multiple times using a loop
