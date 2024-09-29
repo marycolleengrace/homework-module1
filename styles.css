@@ -196,10 +196,14 @@ legend {
 }
 
 form .button input {
-    background-color: #4288c3;
+    /*background-color: #4288c3;*/
+    /*height: 2em;*/
+    font-weight: bold;
+    /*font-size: 1.2em;*/
     text-decoration: #fff;
-    width: 50px;
+    width: 60px;
     margin-left: 450px;
+    border: none;
 }
 
 label  {
@@ -209,10 +213,10 @@ label  {
 }
 
 
-.selectmenu {
+.selectmenu label{
     display:inline-flex;
     align-items: center;
-    width: 500px;
+    width: 200px;
 }
 
 textarea{
@@ -232,6 +236,9 @@ span:first-child{
  /*   display:;*/
    /* align-items: center;*/
     
+}
+.selectmenu label{
+    display: inline;
 }
 
 /*cliff html*/
