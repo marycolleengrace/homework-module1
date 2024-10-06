@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-    <body id="contact" onLoad="disableButton(true)">
+    <!--<body id="contact" onLoad="disableButton(true)">-->
+        <body id="contact">
+
         <div id="container">
            <header>
             <!--<img src="images/cliff_ocean.jpg" alt="Ocean view cliff" width="1280" height="564">-->
@@ -79,10 +81,8 @@
                 </div>
                 <!--Random Code-->
                 <div class = "randomcode">
-                    <input type="text" name = "randomcode" placeholder = "Enter characters"> &nbsp;
-                    <p id="codes"> 
-                        <script src = "js/randomcodes.js"></script></p>
-                    
+                    <input type="text" id="codeentered" name = "randomcode" placeholder = "Enter characters"> &nbsp;
+                    <p id="codes"> </p>
                 </div>
             
                 <div class="button">
@@ -130,5 +130,6 @@
        <p>This website is designed and created for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use</p>
        </div>
    </footer>
+   <script src = "js/randomcodes.js"></script>
    </body>
    </html>
