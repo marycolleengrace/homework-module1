@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $("td:not(:nth-child(1))").each(function() {
+    $("td:not(:nth-child(1))").each(function() {a
       if ($(this).text().trim() !== "Not Available") {
-        $(this).css("cursor", "pointer"); // Change cursor to hand on hover
+        $(this).css("cursor", "pointer"); 
         $(this).on("click", function() {
           $(this).toggleClass("highlight");
         });
