@@ -311,7 +311,7 @@ margin-bottom: 40px;
     font-size: 15px;
 }
 
-/*#activities main #displaySelected {
+#activities main #displaySelected {
     visibility: hidden;
     margin:1em auto 0 13em;
     width:500x;
@@ -333,4 +333,4 @@ margin-bottom: 40px;
   }
   #activities main #displaySelected #sendinfo input [type="email"]{
     width:200px;
-  }*/
+  }
